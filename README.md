@@ -38,13 +38,19 @@ ___
 | ***Временной промежуток*** |	01.01.1985 -  31.12.2018 |	01.01.1968 – 31.12.2018 |	01.01.1968 – 31.12.2018 |	01.01.1968 – 31.12.2018 |	01.01.1968 – 31.12.2018 |
 | ***Источник данных*** |	INGV |	USGS |	USGS |	USGS |	USGS |
 
+<h3>Графики распределения магнитуд</h3>
+
+![Sicily_dist](https://github.com/abrickman/benchmark-earthquake-dataset/blob/5b31ede79a50fde89d2a00939dd7d21921aab8ce/img/sicily.png)
+![Japan_dist](https://github.com/abrickman/benchmark-earthquake-dataset/blob/5b31ede79a50fde89d2a00939dd7d21921aab8ce/img/japan.png)
+![Chile_dist](https://github.com/abrickman/benchmark-earthquake-dataset/blob/5b31ede79a50fde89d2a00939dd7d21921aab8ce/img/chile.png)
+![Hindukush_dist](https://github.com/abrickman/benchmark-earthquake-dataset/blob/5b31ede79a50fde89d2a00939dd7d21921aab8ce/img/hindukush.png)
+![Cali_dist](https://github.com/abrickman/benchmark-earthquake-dataset/blob/5b31ede79a50fde89d2a00939dd7d21921aab8ce/img/cali.png)
+
 ___
 
 
 <h2>Структура данных</h2>
 Все данные находятся в формате *.csv*. Ниже приведены описания семантики столбцов таблиц в каждой из папок:
-
-___
 
 
 <h3>Raw data</h3>
@@ -81,7 +87,6 @@ ___
 | **mag** | Значение магнитуды (величина характеризует "силу" или "мощность" землетрясения) |
 | **eventLocationName** |  Строка, характеризующая удалённость местоположения эпицентра от населённых пунктов |
 
-___
 
 <h3>Adeli and Panakkat seismicity indicators</h3>
 
@@ -104,7 +109,6 @@ ___
 | **Coefficient of variation from mean time** | Коэффициент вариации |
 | **mag** | Максимальная магнитуда событий в указанный промежуток времени (неделя/2 недели/месяц) |
 
-___
 
 <h3>Reyes et al. seismicity indicators</h3>
 
